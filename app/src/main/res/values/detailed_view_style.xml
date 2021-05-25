@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Scroll View Style -->
+    <style name="detailScrollViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <!--  Constraint layout Style  -->
+    <style name="detailMainConstriantViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <!--  Bacdrop Picture Card View Style  -->
+    <style name="detailBackdropPictureCardView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">280dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="cardCornerRadius">14dp</item>
+    </style>
+
+    <!--  Bacdrop Image Style  -->
+    <style name="detailBackdropImageStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:scaleY">1.3</item>
+        <item name="android:scaleX">1.3</item>
+    </style>
+
+    <!--  Details Card View Style  -->
+    <style name="detailCardViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="cardCornerRadius">14dp</item>
+    </style>
+
+    <!--  Details Card View Constraint Style  -->
+    <style name="detailedCardViewInfoConstraintStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <!--  Details Poster Image Card View style -->
+    <style name="detailsPosterimageCardViewStyle">
+        <item name="android:layout_width">140dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="cardCornerRadius">14dp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <!--  detailse poster path Image style  -->
+    <style name="detailedPosterpathImage">
+        <item name="android:layout_width">140dp</item>
+        <item name="android:layout_height">210dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+
+    <style name="smallSectionStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/cinzel_black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="smallSectionDataStyle">
+        <item name="android:layout_width">220dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/roboto_medium_italic</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:paddingLeft">8dp</item>
+    </style>
+
+    <style name="mediumSectionStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="fontFamily">@font/cinzel_black</item>
+    </style>
+
+    <!--  Big Title Style / Detailed View  -->
+    <style name="bigSectionStyle">
+        <item name="android:layout_width">220dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">8dp</item>
+        <item name="fontFamily">@font/cinzel_decorative_bold</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="taglineStyle">
+        <item name="android:layout_width">220dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:gravity">left</item>
+        <item name="fontFamily">@font/permanent_marker</item>
+    </style>
+
+    <style name="overviewTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:justificationMode" tools:ignore="NewApi">inter_word</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="fontFamily">@font/roboto_medium_italic</item>
+    </style>
+
+    <!--   Detailed View Release Date Style  -->
+    <style name="detaledViewReleaseDateStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/roboto_mono_medium_italic</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <!--  Release Tag Card View  -->
+    <style name="releaseTagCardViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="cardCornerRadius">8dp</item>
+    </style>
+
+    <!--  Release Tag Text  -->
+    <style name="detailedTagTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">6dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="fontFamily">@font/source_code_pro</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--  Rating - Card View -->
+    <style name="ratingCardViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <!--  Rating - Text View -->
+    <style name="ratingTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/rock_salt</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--  Overview Card View style  -->
+    <style name="overviewCardViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!--  Link Card View Style  -->
+    <style name="linkCardViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <!--  link Constraint Style  -->
+    <style name="linkconstraintStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingLeft">50dp</item>
+        <item name="android:paddingRight">50dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <!--  TMDB Card View Style  -->
+    <style name="tmdbCardViewStyle">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">120dp</item>
+    </style>
+
+    <!--  Tmdb image Style  -->
+    <style name="tmdbImageStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:scaleX">1.2</item>
+        <item name="android:scaleY">1.2</item>
+    </style>
+
+    <!--  Production Text View   -->
+    <style name="productionTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/cinzel_bold</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <!--  Companies text Style  -->
+    <style name="companiesListTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="fontFamily">@font/raleway_medium_italic</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!--  PG tag Card Vies Style  -->
+    <style name="pgTagCardViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">160dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <!--  PG Text View Style  -->
+    <style name="pgImageStyle">
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+</resources>

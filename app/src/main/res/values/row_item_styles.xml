@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+<!--  Row Item  -->
+    <!-- Card View Style  -->
+    <style name="mainCardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="cardCornerRadius">20dp</item>
+    </style>
+
+    <!-- Constriant widget - CardView style  -->
+    <style name="mainCardViewConstraintWidget">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <!-- Card View / Image View Style  -->
+    <style name="mainImageViewCardViewStyle">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">180dp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <!--  Image View style  -->
+    <style name="mainImageViewStyle">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">180dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!--  Details Constraint style  -->
+    <style name="mainRowItemDetailsConstraintStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">12dp</item>
+    </style>
+
+    <!--  Details - Title style  -->
+    <style name="mainRowMovieTitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/cinzel_decorative_bold</item>
+    </style>
+
+    <!--  Details - Release date style  -->
+    <style name="mainRowReleaseDateStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="alpha">0.8</item>
+        <item name="fontFamily">@font/roboto_mono_medium_italic</item>
+    </style>
+
+    <!--  Details - Serction Rating style  -->
+    <style name="mainRowSectionRating">
+        <item name="android:layout_width">54dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="alpha">0.6</item>
+        <item name="fontFamily">@font/pacifico</item>
+    </style>
+
+    <!--  Details / CardView / Rating (Card)  -->
+    <style name="mainRowCardViewRatingValueStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cardCornerRadius">80dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <!--  Details / TextView  -->
+    <style name="mainRowValueStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/rock_salt</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+    </style>
+<!--  Row Item  -->
+
+</resources>

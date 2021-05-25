@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/abril_fatface</item>
+        <item>@font/caveat_bold</item>
+        <item>@font/chivo</item>
+        <item>@font/cinzel_black</item>
+        <item>@font/cinzel_bold</item>
+        <item>@font/cinzel_decorative_bold</item>
+        <item>@font/cormorant_garamond_medium_italic</item>
+        <item>@font/courgette</item>
+        <item>@font/gloria_hallelujah</item>
+        <item>@font/gochi_hand</item>
+        <item>@font/indie_flower</item>
+        <item>@font/kalam_bold</item>
+        <item>@font/lato_bold</item>
+        <item>@font/monoton</item>
+        <item>@font/montserrat</item>
+        <item>@font/pacifico</item>
+        <item>@font/parisienne</item>
+        <item>@font/pattaya</item>
+        <item>@font/permanent_marker</item>
+        <item>@font/raleway_medium_italic</item>
+        <item>@font/righteous</item>
+        <item>@font/roboto_medium_italic</item>
+        <item>@font/roboto_mono_medium_italic</item>
+        <item>@font/rock_salt</item>
+        <item>@font/satisfy</item>
+        <item>@font/source_code_pro</item>
+    </array>
+</resources>

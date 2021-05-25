@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="overview">A botched store robbery places Wonder Woman in a global battle against a powerful and mysterious ancient force that puts her powers in jeopardy.</string>
+    <string name="go">Visit</string>
+    <string name="overview_title">Overview</string>
+    <string name="search">search</string>
+    <string name="rating">Rating:</string>
+    <string name="titleTextPreview">Wonder Woman 1984</string>
+    <string name="taglinetextPreview">A new era of wonder begins.</string>
+    <string name="genre">Genre</string>
+    <string name="release_date">Release date</string>
+    <string name="production_companies">Production companies</string>
+</resources>
